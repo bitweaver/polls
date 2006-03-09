@@ -7,7 +7,7 @@
 <table class="data">
 {section name=ix loop=$options}
 <tr><td>{$options[ix].title}</td>
-	<td>{biticon ipackage="polls" iname="leftbar" height="14"}{biticon ipackage="polls" iname="mainbar" width="`$options[ix].width`" height="14"}{biticon ipackage="polls" iname="rightbar" height="14"}</td>
+	<td>{if $options[ix].width != 0}{biticon ipackage="polls" iname="leftbar" height="14"}{biticon ipackage="polls" iname="mainbar" width="`$options[ix].width`" height="14"}{biticon ipackage="polls" iname="rightbar" height="14"}{/if}</td>
 	<td>{$options[ix].percent}% ({$options[ix].votes})</td>
 </tr>
 {/section}
