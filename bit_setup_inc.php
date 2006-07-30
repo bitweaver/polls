@@ -1,6 +1,9 @@
 <?php
-global $gBitSystem, $gBitUser;
-$gBitSystem->registerPackage( 'polls', dirname( __FILE__).'/' );
+$registerHash = array(
+	'package_name' => 'polls',
+	'package_path' => dirname( __FILE__ ).'/',
+);
+$gBitSystem->registerPackage( $registerHash );
 
 if( $gBitSystem->isPackageActive( 'polls' ) ) {
 //	$gBitSystem->registerAppMenu( POLLS_PKG_NAME, ucfirst( POLLS_PKG_DIR ), POLLS_PKG_URL.'index.php', 'bitpackage:polls/menu_polls.tpl', POLLS_PKG_NAME );
