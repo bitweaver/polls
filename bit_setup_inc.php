@@ -2,6 +2,7 @@
 $registerHash = array(
 	'package_name' => 'polls',
 	'package_path' => dirname( __FILE__ ).'/',
+	'homeable' => TRUE,
 );
 $gBitSystem->registerPackage( $registerHash );
 

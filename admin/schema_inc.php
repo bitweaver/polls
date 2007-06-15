@@ -25,8 +25,6 @@ $tables = array(
 
 global $gBitInstaller;
 
-$gBitInstaller->makePackageHomeable( POLLS_PKG_NAME );
-
 foreach( array_keys( $tables ) AS $tableName ) {
     $gBitInstaller->registerSchemaTable( POLLS_PKG_DIR, $tableName, $tables[$tableName] );
 }
