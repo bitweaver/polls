@@ -1,5 +1,18 @@
 <?php
+/**
+ * @version $Header: /cvsroot/bitweaver/_bit_polls/poll_lib.php,v 1.2 2008/06/19 05:40:23 lsces Exp $
+ *
+ * Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
+ * Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
+ * All Rights Reserved. See copyright.txt for details and a complete list of authors.
+ * Licensed under the GNU LESSER GENERAL PUBLIC LICENSE. See license.txt for details.
+ *
+ * @package polls
+ */
 
+/**
+ * @package polls
+ */
 class PollLib extends BitBase {
 	function PollLib() {
 		BitBase::BitBase();
