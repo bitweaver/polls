@@ -1,6 +1,6 @@
 <?php
 
-// $Header: /cvsroot/bitweaver/_bit_polls/admin/admin_poll_options.php,v 1.1 2006/03/08 11:26:54 wolff_borg Exp $
+// $Header: /cvsroot/bitweaver/_bit_polls/admin/admin_poll_options.php,v 1.2 2008/06/25 22:21:20 spiderr Exp $
 
 // Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
 // Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
@@ -97,6 +97,6 @@ if ($offset > 0) {
 $gBitSmarty->assign_by_ref('polls', $polls["data"]);
 
 // Display the template
-$gBitSystem->display( 'bitpackage:polls/admin_poll_options.tpl', tra('Admin Poll Options') );
+$gBitSystem->display( 'bitpackage:polls/admin_poll_options.tpl', tra('Admin Poll Options') , array( 'display_mode' => 'admin' ));
 
 ?>

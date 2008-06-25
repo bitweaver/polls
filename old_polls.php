@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Header: /cvsroot/bitweaver/_bit_polls/old_polls.php,v 1.2 2008/06/19 05:40:23 lsces Exp $
+ * @version $Header: /cvsroot/bitweaver/_bit_polls/old_polls.php,v 1.3 2008/06/25 22:21:20 spiderr Exp $
  *
  * Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
  * Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
@@ -81,6 +81,6 @@ $gBitSmarty->assign_by_ref('listpages', $listpages["data"]);
 //print_r($listpages["data"]);
 
 // Display the template
-$gBitSystem->display( 'bitpackage:polls/old_polls.tpl', tra('Previous Polls') );
+$gBitSystem->display( 'bitpackage:polls/old_polls.tpl', tra('Previous Polls') , array( 'display_mode' => 'display' ));
 
 ?>

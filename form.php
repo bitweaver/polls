@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Header: /cvsroot/bitweaver/_bit_polls/form.php,v 1.2 2008/06/19 05:40:23 lsces Exp $
+ * @version $Header: /cvsroot/bitweaver/_bit_polls/form.php,v 1.3 2008/06/25 22:21:17 spiderr Exp $
  *
  * Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
  * Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
@@ -36,6 +36,6 @@ $gBitSmarty->assign_by_ref('poll_info', $poll_info);
 $gBitSmarty->assign_by_ref('polls', $options["data"]);
 
 // Display the template
-$gBitSystem->display( 'bitpackage:polls/poll_form.tpl', tra('Poll Form') );
+$gBitSystem->display( 'bitpackage:polls/poll_form.tpl', tra('Poll Form') , array( 'display_mode' => 'display' ));
 
 ?>
