@@ -1,6 +1,6 @@
 <?php
 /**
- * @version $Header: /cvsroot/bitweaver/_bit_polls/form.php,v 1.5 2009/10/01 14:17:03 wjames5 Exp $
+ * @version $Header: /cvsroot/bitweaver/_bit_polls/form.php,v 1.6 2010/02/08 21:27:25 wjames5 Exp $
  *
  * Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
  * Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
@@ -14,7 +14,7 @@
 /**
  * required setup
  */
-require_once( '../bit_setup_inc.php' );
+require_once( '../kernel/setup_inc.php' );
 
 include_once( POLLS_PKG_PATH.'poll_lib.php' );
 
