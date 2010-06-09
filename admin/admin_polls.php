@@ -1,6 +1,6 @@
 <?php
 
-// $Header: /cvsroot/bitweaver/_bit_polls/admin/admin_polls.php,v 1.5 2010/02/08 21:27:25 wjames5 Exp $
+// $Header$
 
 // Copyright (c) 2002-2003, Luis Argerich, Garland Foster, Eduardo Polidor, et. al.
 // Copyright (c) 2006, Stephan Borg <wolff_borg@yahoo.com.au>
