@@ -15,7 +15,7 @@
  */
 class PollLib extends BitBase {
 	function PollLib() {
-		BitBase::BitBase();
+		parent::__construct();
 	}
 
 	// Functions for polls ////
