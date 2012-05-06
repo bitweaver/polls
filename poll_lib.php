@@ -14,9 +14,6 @@
  * @package polls
  */
 class PollLib extends BitBase {
-	function PollLib() {
-		parent::__construct();
-	}
 
 	// Functions for polls ////
 	/*shared*/
