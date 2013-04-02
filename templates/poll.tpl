@@ -3,13 +3,13 @@
 {form}
 	<input type="hidden" name="polls_poll_id" value="{$poll_info.poll_id|escape}" />
 
-	<div class="row">
+	<div class="control-group">
 		{section name=ix loop=$polls}
 			<input type="radio" name="polls_option_id" value="{$polls[ix].option_id|escape}" />{tr}{$polls[ix].title}{/tr}<br />
 		{/section}
 	</div>
 
-	<div class="row submit">
+	<div class="control-group submit">
 		<input type="submit" name="pollVote" value="{tr}vote{/tr}" /><br />
 		<a href="{$smarty.const.POLLS_PKG_URL}results.php?poll_id={$poll_info.poll_id}">{tr}View Results{/tr}</a><br />
 		({tr}Votes:{/tr} {$poll_info.votes})
