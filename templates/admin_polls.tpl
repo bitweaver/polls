@@ -14,7 +14,7 @@
       <option value="points_desc" {if $poll_comments_default_ordering eq 'points_desc'}selected="selected"{/if}>{tr}Points{/tr}</option>
     </select>
     </td></tr>
-    <tr class="panelsubmitrow"><td colspan="2"><input type="submit" name="pollprefs" value="{tr}Change preferences{/tr}" /></td></tr>
+    <tr class="panelsubmitrow"><td colspan="2"><input type="submit" class="btn" name="pollprefs" value="{tr}Change preferences{/tr}" /></td></tr>
     </table>
     </form>
     </div>
