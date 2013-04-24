@@ -4,7 +4,7 @@
 </div>
 
 <div class="body">
-<table class="data">
+<table class="table data">
 {section name=ix loop=$options}
 <tr><td>{$options[ix].title}</td>
 	<td>{biticon ipackage="polls" iname="leftbar" height="14"}{biticon ipackage="polls" iname="mainbar" width="`$options[ix].width`" height="14"}{biticon ipackage="polls" iname="rightbar" height="14"}</td>

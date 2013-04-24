@@ -17,7 +17,7 @@
 </tr>
 </table>
 
-<table class="data">
+<table class="table data">
 <tr>
 	<th><a href="{$smarty.const.POLLS_PKG_URL}old_polls.php?offset={$offset}&amp;sort_mode={if $sort_mode eq 'title_desc'}title_asc{else}title_desc{/if}">{tr}Title{/tr}</a></th>
 	<th><a href="{$smarty.const.POLLS_PKG_URL}old_polls.php?offset={$offset}&amp;sort_mode={if $sort_mode eq 'publish_date_desc'}publish_date_asc{else}publish_date_desc{/if}">{tr}Published{/tr}</a></th>

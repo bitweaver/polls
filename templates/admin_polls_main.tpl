@@ -44,7 +44,7 @@
 			</div>
 		{/form}
 
-		<table class="data">
+		<table class="table data">
 			<caption>{tr}List of Polls{/tr}</caption>
 			<tr>
 				<th>{smartlink ititle="ID" isort='poll_id' offset=$offset}</th>
