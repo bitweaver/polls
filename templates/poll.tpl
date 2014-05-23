@@ -10,7 +10,7 @@
 	</div>
 
 	<div class="control-group submit">
-		<input type="submit" class="btn" name="pollVote" value="{tr}vote{/tr}" /><br />
+		<input type="submit" class="btn btn-default" name="pollVote" value="{tr}vote{/tr}" /><br />
 		<a href="{$smarty.const.POLLS_PKG_URL}results.php?poll_id={$poll_info.poll_id}">{tr}View Results{/tr}</a><br />
 		({tr}Votes:{/tr} {$poll_info.votes})
 	</div>
