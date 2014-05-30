@@ -11,7 +11,7 @@
 		{form legend="Create a new Poll"}
 			<input type="hidden" name="poll_id" value="{$poll_id|escape}" />
 
-			<div class="control-group">
+			<div class="form-group">
 				{formlabel label="Title" for="title"}
 				{forminput}
 					<input type="text" id="title" name="title" value="{$title|escape}" size="50"/>
@@ -19,7 +19,7 @@
 				{/forminput}
 			</div> 
 
-			<div class="control-group">
+			<div class="form-group">
 				{formlabel label="Is Active" for="is_active"}
 				{forminput}
 					<select id="is_active" name="is_active">
@@ -31,7 +31,7 @@
 				{/forminput}
 			</div>
 
-			<div class="control-group">
+			<div class="form-group">
 				{formlabel label="Publish Date" for="publish_date"}
 				{forminput}
 					{html_select_date time=$publish_date end_year="+1"} {tr}at{/tr} {html_select_time time=$publish_date display_seconds=false}
@@ -39,7 +39,7 @@
 				{/forminput}
 			</div>
 			
-			<div class="control-group submit">
+			<div class="form-group submit">
 				<input type="submit" class="btn btn-default" name="fSubmit" value="{tr}Save{/tr}" />
 			</div>
 		{/form}

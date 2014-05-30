@@ -11,8 +11,8 @@
 <form action="{$smarty.const.POLLS_PKG_URL}admin/admin_poll_options.php" method="post">
 <input type="hidden" name="option_id" value="{$option_id|escape}" />
 <input type="hidden" name="poll_id" value="{$poll_id|escape}" />
-<div class="control-group">{tr}Option{/tr}:<input type="text" name="title" value="{$title|escape}" size="70" /></div>
-<div class="control-group submit"><input type="submit" class="btn btn-default" name="save" value="{tr}Save{/tr}" /></div>
+<div class="form-group">{tr}Option{/tr}:<input type="text" name="title" value="{$title|escape}" size="70" /></div>
+<div class="form-group submit"><input type="submit" class="btn btn-default" name="save" value="{tr}Save{/tr}" /></div>
 </form>
 
 <h2>{tr}Poll options{/tr}</h2>
